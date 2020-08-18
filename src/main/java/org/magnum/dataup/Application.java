@@ -17,8 +17,12 @@
  */
 package org.magnum.dataup;
 
+import java.awt.List;
+import java.util.ArrayList;
+
 import javax.servlet.MultipartConfigElement;
 
+import org.magnum.dataup.model.Video;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.web.servlet.MultipartConfigFactory;
